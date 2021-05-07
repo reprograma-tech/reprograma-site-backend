@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_banners",
+  "info": {
+    "name": "banner",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "imagemFundo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    }
+  }
+}

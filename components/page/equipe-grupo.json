@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_equipe_grupos",
+  "info": {
+    "name": "EquipeGrupo",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "nomeGrupo": {
+      "type": "string",
+      "required": true
+    },
+    "equipes": {
+      "collection": "equipe"
+    }
+  }
+}

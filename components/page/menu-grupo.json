@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_menu_grupos",
+  "info": {
+    "name": "MenuGrupo",
+    "icon": "layer-group"
+  },
+  "options": {},
+  "attributes": {
+    "rotuloGrupo": {
+      "type": "string",
+      "required": true
+    },
+    "menuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu-item"
+    }
+  }
+}

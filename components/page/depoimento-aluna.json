@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_depoimento_alunas",
+  "info": {
+    "name": "depoimentoAluna",
+    "icon": "comment-dots"
+  },
+  "options": {},
+  "attributes": {
+    "fotoAluna": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "depoimento": {
+      "type": "text",
+      "required": true
+    },
+    "nomeAluna": {
+      "type": "string",
+      "required": true
+    },
+    "turma": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

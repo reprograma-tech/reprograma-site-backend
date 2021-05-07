@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_equipes",
+  "info": {
+    "name": "Pagina Equipe",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EquipeBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.banner"
+    },
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.intro"
+    },
+    "EquipeGrupo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.equipe-grupo"
+    }
+  }
+}

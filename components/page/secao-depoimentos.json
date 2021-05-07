@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_secao_depoimentos",
+  "info": {
+    "name": "secaoDepoimentos",
+    "icon": "comment"
+  },
+  "options": {},
+  "attributes": {
+    "depoimentoAluna": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.depoimento-aluna",
+      "min": 3,
+      "required": true
+    }
+  }
+}

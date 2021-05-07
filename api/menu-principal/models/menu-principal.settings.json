@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu_principals",
+  "info": {
+    "name": "Menu Principal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "MenuGrupo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu-grupo",
+      "required": true,
+      "min": 1
+    }
+  }
+}

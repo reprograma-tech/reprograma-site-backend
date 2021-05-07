@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_menu_items",
+  "info": {
+    "name": "MenuItem",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "rotulo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

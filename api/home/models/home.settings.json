@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Pagina Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.banner",
+      "required": true
+    },
+    "secaoCenario": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.secao-cenario",
+      "required": false
+    },
+    "secaoSobre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.secao-sobre",
+      "required": false
+    },
+    "secaoDepoimentos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.secao-depoimentos"
+    },
+    "secaoTime": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.secao-time"
+    },
+    "secaoParcerias": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.secao-parcerias"
+    },
+    "secaoCursos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.secao-cursos"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_secao_sobres",
+  "info": {
+    "name": "secaoSobre",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "paragrafoSobre": {
+      "type": "text",
+      "required": true
+    },
+    "urlVideoInstitucional": {
+      "type": "string"
+    },
+    "dadosReprograma": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.dados-reprograma"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_secao_cursos",
+  "info": {
+    "name": "secaoCursos",
+    "icon": "graduation-cap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "cursos": {
+      "collection": "cursos"
+    }
+  }
+}

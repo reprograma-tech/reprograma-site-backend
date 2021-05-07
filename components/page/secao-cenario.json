@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_secao_cenarios",
+  "info": {
+    "name": "secaoCenario",
+    "icon": "stream"
+  },
+  "options": {},
+  "attributes": {
+    "CenarioItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.cenario-item",
+      "required": true
+    }
+  }
+}

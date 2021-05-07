@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "name": "Cursos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "tituloSecundario": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "linkCurso": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "tipo": {
+      "type": "string",
+      "default": "Curso Gratuito"
+    }
+  }
+}

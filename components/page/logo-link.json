@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_logo_links",
+  "info": {
+    "name": "LogoLink",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "logoReduzida": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "descricaoAcessivel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

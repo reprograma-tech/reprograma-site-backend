@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_dados_reprogramas",
+  "info": {
+    "name": "dadosReprograma",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "rotuloDado": {
+      "type": "string",
+      "required": true
+    },
+    "valorDado": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
